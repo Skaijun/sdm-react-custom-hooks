@@ -1,5 +1,9 @@
+import ToggleComponent from "./toggle/ToggleComponent";
+
 export default function Page() {
     return <>
-        <h3>React Custom Hooks</h3>
+        <h1 style={{ borderBottom: '4px solid red', marginBottom: '55px' }} >React Custom Hooks</h1>
+        <br />
+        {/* <ToggleComponent /> */}
     </>
 }
